@@ -1,4 +1,4 @@
-package day04;
+package day04_Variables;
 /*
 1. Create a class named Square, write a program that can calculate the area & perimeter of any given square
 						side
