@@ -13,6 +13,11 @@ public class EvenlyDivisible {
         System.out.println(number + " is divisible by 5 :" + divisibleBy5);
 
 
+        System.out.println("---------------------------");
+        int year = 200;
+        boolean isLeapYear = year % 4 == 0;
+
+        System.out.println(year + " is leap year " + isLeapYear);
 
     }
 
