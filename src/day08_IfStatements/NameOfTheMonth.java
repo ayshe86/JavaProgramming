@@ -26,34 +26,34 @@ public class NameOfTheMonth {
             System.out.println("It's July");
         }
 
-            if (number == 8) {
-                System.out.println("It's August");
-            }
+        if (number == 8) {
+            System.out.println("It's August");
+        }
 
-                if (number == 9) {
-                    System.out.println("It's September");
-                }
+        if (number == 9) {
+            System.out.println("It's September");
+        }
 
-                    if (number == 10) {
-                        System.out.println("It's October");
-                    }
+        if (number == 10) {
+            System.out.println("It's October");
+        }
 
-                        if (number == 11) {
-                            System.out.println("It's November");
-                        }
+        if (number == 11) {
+            System.out.println("It's November");
+        }
 
-                            if (number == 12) {
-                                System.out.println("It's December");
+        if (number == 12) {
+            System.out.println("It's December");
 
-                            }
-                            if (number > 12 || number == 0) {
-                                System.out.println("Invalid Login !!!");
+        }
+        if (number > 12 || number == 0) {
+            System.out.println("Invalid Login !!!");
 
-                            }
+        }
 
 
-                        }
-                    }
+    }
+}
 
 
 
