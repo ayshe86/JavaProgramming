@@ -14,7 +14,7 @@ public class NumberOfDays {
             System.out.println(" 30 Days");
         }
         if(has31Days){
-            System.out.println(" 31 Days");
+            System.out.println(number+10+" 31 Days"+ number+10);
         }
 
     }

@@ -12,15 +12,15 @@ public class GradeReport {
         System.out.println(!!!true); // false
          */
 
-        int score = 8;
+        int score = 50;
         boolean a = score >= 90 && score <= 100; //false
-        boolean b = score >= 80 && score <= 89; //true
-        //  boolean b = score >= 80 && !a; // if score is A, but score is greater than 80
+        //boolean b = score >= 80 && score <= 89; //true
+          boolean b = score >= 80 && !a; // if score is A, but score is greater than 80
 
         //boolean c= score>= 70 && score <= 79;
-        boolean c = !a && !b && score >= 70;
-        boolean d = score >= 60 && score <= 69;
-        //boolean d = !a && !b && !c && score <= 69; todo ı will ask my friends is there a option fot iy or not!!
+        boolean c = !a && !b &&  score >= 70;
+        //boolean d = score >= 60 && score <= 69;
+        boolean d = !a && !b && !c && score  >= 60; 
         boolean f = score>=0 && score <= 59; // false
         //  boolean f = !a && !b && !c && !d;
 
